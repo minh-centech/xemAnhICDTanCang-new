@@ -1,0 +1,72 @@
+﻿@model GetImagesFromDatabase.Models.getTenThuMuc
+@{
+    ViewBag.Title = "Index1";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .text-danger ul li {
+    list-style:none;
+    
+    }
+    .text-danger ul {
+        padding-left: 0;
+    }
+</style>
+
+
+<div class="form-group">
+    @*@using (Html.BeginForm("XemAnhSever", "Home", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken() // Anti-forgery token
+
+
+        <div class="form-group">
+            <h1 class="mt-4 mb-4">Nhập số Container</h1>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ID, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(model => model.ID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="btn btn-primary mt-2">Tìm kiếm</button>
+            </div>
+        </div>
+    }*@
+    @using (Html.BeginForm("TimKiemFolder", "Home", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken() // Anti-forgery token
+
+
+        <div class="form-group">
+            <h1 class="mt-4 mb-4">Nhập số Container</h1>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ID, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(model => model.ID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="btn btn-primary mt-2">Tìm kiếm</button>
+            </div>
+        </div>
+    }
+</div>
+
+@if (ViewBag.ImageData1 != null)
+{
+    <div id="imageContainer" class="row">
+        @foreach (string imageData in ViewBag.ImageData1)
+        {
+            <div class="col-md-3">
+                @* Mỗi ảnh chiếm 3 cột *@
+                <img src="@imageData" alt="Ảnh" class="img-thumbnail" style="max-width: 100%; height: auto;" />
+            </div>
+        }
+    </div>
+}

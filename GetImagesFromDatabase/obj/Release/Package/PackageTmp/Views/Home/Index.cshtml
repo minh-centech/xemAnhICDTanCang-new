@@ -1,0 +1,30 @@
+﻿@model GetImagesFromDatabase.Models.getImageFromID
+
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h1 class="mt-4 mb-4">Nhập số Container</h1>
+
+<div class="form-group">
+    @using (Html.BeginForm("XemAnh", "Home", FormMethod.Post))
+    {
+        <div class="form-group">
+
+            @Html.EditorFor(model => model.ID, new { htmlAttributes = new { @class = "form-control", @id = "txtFolderName" } })
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">Tìm kiếm</button>
+    }
+
+</div>
+
+
+
+
+
+
+
+

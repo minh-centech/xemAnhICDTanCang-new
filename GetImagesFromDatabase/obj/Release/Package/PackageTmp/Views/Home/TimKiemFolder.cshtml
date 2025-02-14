@@ -1,0 +1,12 @@
+﻿@* View hiển thị danh sách link ảnh *@
+
+@if (TempData["ImageLinks"] != null)
+{
+    <h2>Link ảnh trong folder:</h2>
+    <ul>
+        @foreach (var link in TempData["ImageLinks"] as List<string>)
+        {
+            <li><img src="@link" alt="Ảnh" /></li>
+        }
+    </ul>
+}

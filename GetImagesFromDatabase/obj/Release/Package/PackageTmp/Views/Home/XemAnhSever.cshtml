@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Dashboard - SB Admin</title>
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+    <link href="~/assets/css/styles.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <style>
+        .w3-button {
+            background: red !important;
+            color: #ccc;
+        }
+
+        .w3-display-topright {
+            z-index: 99999;
+        }
+
+        .sb-topnav {
+            z-index: 1;
+        }
+
+        #img01 {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        @@media (min-width: 993px) {
+            .w3-modal-content {
+                width: 650px !important;
+            }
+        }
+    </style>
+
+
+</head>
+<body>
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-primary">
+
+        <a class="navbar-brand ps-3" href="@Url.Action("Index","Home")">ICD-Tân Cảng</a>
+
+
+        @*<form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+                <div class="input-group">
+                    <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
+                    <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
+                </div>
+            </form>
+
+            <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#!">Settings</a></li>
+                        <li><a class="dropdown-item" href="#!">Activity Log</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" href="#!">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>*@
+    </nav>
+    <div class="container mt-5">
+        <div class="row">
+            @foreach (var file in Model.ImageData)
+            {
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img style="width:100%;cursor:pointer" onclick="onClick(this)" src="@file" class="card-img-top" id="myImg" />
+                        <div class="card-body">
+                            <h5 class="card-title">Ảnh chi tiết</h5>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+    </div>
+    <div class="container">
+        <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+                <img id="img01" style="width:100%;" alt="Zoom Image">
+            </div>
+        </div>
+    </div>
+    <script>function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            document.getElementById("img01").addEventListener("click", function () {
+                // Khi ảnh được click, thực hiện chức năng zoom
+                this.classList.toggle("zoomed");
+            });
+}
+        var result = document.getElementById("myImg");
+        console.log(result);
+    </script>
+</body>
+</html>

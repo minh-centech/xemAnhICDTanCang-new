@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\icd-TanCang\\XemAnhContainerICD-TanCangHP-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2349D19F-6F37-4536-BF7B-956F9699DE4D}|GetImagesFromDatabase\\GetImagesFromDatabase.csproj|c:\\users\\admin\\desktop\\icd-tancang\\xemanhcontainericd-tancanghp-main\\getimagesfromdatabase\\views\\home\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2349D19F-6F37-4536-BF7B-956F9699DE4D}|GetImagesFromDatabase\\GetImagesFromDatabase.csproj|solutionrelative:getimagesfromdatabase\\views\\home\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2349D19F-6F37-4536-BF7B-956F9699DE4D}|GetImagesFromDatabase\\GetImagesFromDatabase.csproj|c:\\users\\admin\\desktop\\icd-tancang\\xemanhcontainericd-tancanghp-main\\getimagesfromdatabase\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2349D19F-6F37-4536-BF7B-956F9699DE4D}|GetImagesFromDatabase\\GetImagesFromDatabase.csproj|solutionrelative:getimagesfromdatabase\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2349D19F-6F37-4536-BF7B-956F9699DE4D}|GetImagesFromDatabase\\GetImagesFromDatabase.csproj|C:\\Users\\Admin\\Desktop\\icd-TanCang\\XemAnhContainerICD-TanCangHP-main\\getimagesfromdatabase\\views\\home\\xemanhsever.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2349D19F-6F37-4536-BF7B-956F9699DE4D}|GetImagesFromDatabase\\GetImagesFromDatabase.csproj|solutionrelative:getimagesfromdatabase\\views\\home\\xemanhsever.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2349D19F-6F37-4536-BF7B-956F9699DE4D}|GetImagesFromDatabase\\GetImagesFromDatabase.csproj|c:\\users\\admin\\desktop\\icd-tancang\\xemanhcontainericd-tancanghp-main\\getimagesfromdatabase\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2349D19F-6F37-4536-BF7B-956F9699DE4D}|GetImagesFromDatabase\\GetImagesFromDatabase.csproj|solutionrelative:getimagesfromdatabase\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2349D19F-6F37-4536-BF7B-956F9699DE4D}|GetImagesFromDatabase\\GetImagesFromDatabase.csproj|C:\\Users\\Admin\\Desktop\\icd-TanCang\\XemAnhContainerICD-TanCangHP-main\\getimagesfromdatabase\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2349D19F-6F37-4536-BF7B-956F9699DE4D}|GetImagesFromDatabase\\GetImagesFromDatabase.csproj|solutionrelative:getimagesfromdatabase\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2349D19F-6F37-4536-BF7B-956F9699DE4D}|GetImagesFromDatabase\\GetImagesFromDatabase.csproj|c:\\users\\admin\\desktop\\icd-tancang\\xemanhcontainericd-tancanghp-main\\getimagesfromdatabase\\models\\gettenthumuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2349D19F-6F37-4536-BF7B-956F9699DE4D}|GetImagesFromDatabase\\GetImagesFromDatabase.csproj|solutionrelative:getimagesfromdatabase\\models\\gettenthumuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\icd-TanCang\\XemAnhContainerICD-TanCangHP-main\\GetImagesFromDatabase\\Web.config",
+              "RelativeDocumentMoniker": "GetImagesFromDatabase\\Web.config",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\icd-TanCang\\XemAnhContainerICD-TanCangHP-main\\GetImagesFromDatabase\\Web.config",
+              "RelativeToolTip": "GetImagesFromDatabase\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-14T08:11:50.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "getTenThuMuc.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\icd-TanCang\\XemAnhContainerICD-TanCangHP-main\\GetImagesFromDatabase\\Models\\getTenThuMuc.cs",
+              "RelativeDocumentMoniker": "GetImagesFromDatabase\\Models\\getTenThuMuc.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\icd-TanCang\\XemAnhContainerICD-TanCangHP-main\\GetImagesFromDatabase\\Models\\getTenThuMuc.cs",
+              "RelativeToolTip": "GetImagesFromDatabase\\Models\\getTenThuMuc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T04:20:30.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index1.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\icd-TanCang\\XemAnhContainerICD-TanCangHP-main\\GetImagesFromDatabase\\Views\\Home\\Index1.cshtml",
+              "RelativeDocumentMoniker": "GetImagesFromDatabase\\Views\\Home\\Index1.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\icd-TanCang\\XemAnhContainerICD-TanCangHP-main\\GetImagesFromDatabase\\Views\\Home\\Index1.cshtml",
+              "RelativeToolTip": "GetImagesFromDatabase\\Views\\Home\\Index1.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T04:17:05.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\icd-TanCang\\XemAnhContainerICD-TanCangHP-main\\GetImagesFromDatabase\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "GetImagesFromDatabase\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\icd-TanCang\\XemAnhContainerICD-TanCangHP-main\\GetImagesFromDatabase\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "GetImagesFromDatabase\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T04:20:07.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\icd-TanCang\\XemAnhContainerICD-TanCangHP-main\\GetImagesFromDatabase\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "GetImagesFromDatabase\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\icd-TanCang\\XemAnhContainerICD-TanCangHP-main\\GetImagesFromDatabase\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "GetImagesFromDatabase\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAwwHYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T03:31:18.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "XemAnhSever.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\icd-TanCang\\XemAnhContainerICD-TanCangHP-main\\GetImagesFromDatabase\\Views\\Home\\XemAnhSever.cshtml",
+              "RelativeDocumentMoniker": "GetImagesFromDatabase\\Views\\Home\\XemAnhSever.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\icd-TanCang\\XemAnhContainerICD-TanCangHP-main\\GetImagesFromDatabase\\Views\\Home\\XemAnhSever.cshtml",
+              "RelativeToolTip": "GetImagesFromDatabase\\Views\\Home\\XemAnhSever.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T09:56:14.109Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
